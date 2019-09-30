@@ -1,0 +1,32 @@
+{
+  "name": "value-to-text",
+  "version": "1.0.0",
+  "description": "Simple valueToText",
+  "main": "src/valueToText.js",
+  "scripts": {
+    "npmPublish": "npm --no-git-tag-version version patch && npm adduser && npm publish",
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedCamel-Studio/valueToText.git"
+  },
+  "keywords": [
+    "loop",
+    "looper"
+  ],
+  "author": {
+    "name": "redcamel",
+    "email": "webseon@gmail.com",
+    "url": "https://github.com/redcamel"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RedCamel-Studio/valueToText/issues"
+  },
+  "homepage": "https://github.com/RedCamel-Studio/valueToText",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "dependencies": {}
+}
