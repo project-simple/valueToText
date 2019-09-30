@@ -6,7 +6,7 @@
 }(this, (function () {
 	var valueToText;
 	valueToText=function (v) {
-		return v === undefined ? 'undefined' : v === null ? 'null' : typeof v == 'function' ? v.toString() :JSON.stringify(v)
+		return 	v === undefined ? 'undefined' : v === null ? 'null' : v.toString() == 'NaN' ? 'NaN' : typeof v == 'function' ? v.toString()  : typeof v=='string'?v :JSON.stringify(v)
 	};
 	return  valueToText;
 })));

@@ -1,4 +1,3 @@
-
 const valueToText = require("../src/valueToText");
 var makeTest = function (title, list) {
 	describe(title, () => {
@@ -51,7 +50,7 @@ makeTest(
 	]
 );
 makeTest(
-	'Test valueToText - null, undefined',
+	'Test valueToText - null, undefined, NaN',
 	[
 		{
 			title: 'null',
@@ -62,6 +61,11 @@ makeTest(
 			title: 'undefined',
 			value: undefined,
 			toBe: 'undefined'
+		},
+		{
+			title: 'NaN',
+			value: NaN,
+			toBe: 'NaN'
 		}
 	]
 );
@@ -71,13 +75,19 @@ makeTest(
 	[
 		{
 			title: 'function',
-			value: function(){},
-			toBe: function(){}.toString()
+			value: function () {
+			},
+			toBe: function () {
+			}.toString()
 		},
 		{
 			title: 'function',
-			value: function(){console.log('test')},
-			toBe: function(){console.log('test')}.toString()
+			value: function () {
+				console.log('test')
+			},
+			toBe: function () {
+				console.log('test')
+			}.toString()
 		}
 	]
 );
@@ -92,12 +102,12 @@ makeTest(
 		},
 		{
 			title: 'array',
-			value: [1,2,3],
+			value: [1, 2, 3],
 			toBe: '[1,2,3]'
 		},
 		{
 			title: 'array',
-			value: [1,2,3,[1,2,3]],
+			value: [1, 2, 3, [1, 2, 3]],
 			toBe: '[1,2,3,[1,2,3]]'
 		}
 	]
@@ -113,12 +123,12 @@ makeTest(
 		},
 		{
 			title: 'object',
-			value: {test:1},
+			value: {test: 1},
 			toBe: '{"test":1}'
 		},
 		{
 			title: 'object',
-			value: {test:'test'},
+			value: {test: 'test'},
 			toBe: '{"test":\"test\"}'
 		}
 	]
@@ -129,7 +139,7 @@ makeTest(
 		{
 			title: 'string',
 			value: 'testString',
-			toBe: '\"testString\"'
+			toBe: 'testString'
 		}
 	]
 );
