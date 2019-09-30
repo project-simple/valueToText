@@ -16,14 +16,14 @@ npm install value-to-text --save-dev
 ```html
 <script src="http://redcamel-studio.github.io//valueToText/src/valueToText.js"></script>
 <script>
-valueToText(1) // return '1'
-valueToText(null) // return 'null'
-valueToText(undefined) // return 'undefined'
-valueToText(NaN) // return 'NaN'
-valueToText([]) // return '[]'
-valueToText({}) // return '{}'
-valueToText(function(){}) // return 'function(){}'
-valueToText('testString') // return 'testString'
+    valueToText(1) // return '1'
+    valueToText(null) // return 'null'
+    valueToText(undefined) // return 'undefined'
+    valueToText(NaN) // return 'NaN'
+    valueToText([]) // return '[]'
+    valueToText({}) // return '{}'
+    valueToText(function(){}) // return 'function(){}'
+    valueToText('testString') // return 'testString'
 </script>
 ```
 # License : MIT 
