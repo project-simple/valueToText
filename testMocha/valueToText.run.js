@@ -1,15 +1,15 @@
 "use strict";
 
-		console.log('오냐')
-		var makeTest = function (title, list) {
-			describe(title, function () {
-				list.forEach(function (v) {
-					it('Test '+v['title'] + ' - result : ' + valueToText(v['value']), function () {
-						expect(valueToText(v['value'])).to.equal(v['toBe']);
-					});
-				})
+console.log('오냐')
+var makeTest = function (title, list) {
+	describe(title, function () {
+		list.forEach(function (v) {
+			it('Test ' + v['title'] + ' - result : ' + valueToText(v['value']), function () {
+				expect(valueToText(v['value'])).to.equal(v['toBe']);
 			});
-		};
+		})
+	});
+};
 describe("valueToText", function () {
 	makeTest(
 		'Test valueToText - Number',
