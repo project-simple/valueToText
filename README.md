@@ -12,7 +12,7 @@ npm install value-to-text --save-dev
 ```
 #### browser
 ```html
-<script src="http://redcamel-studio.github.io//valueToText/src/valueToText.js"></script>
+<script src="http://redcamel-studio.github.io/valueToText/src/valueToText.js"></script>
 <script>
     valueToText(1) // return '1'
     valueToText(null) // return 'null'
