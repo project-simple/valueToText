@@ -1,6 +1,6 @@
 {
   "name": "value-to-text",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Value to Text.",
   "main": "src/valueToText.js",
   "scripts": {
