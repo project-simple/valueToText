@@ -26,4 +26,3 @@ npm install value-to-text --save-dev
     valueToText('testString') // return 'testString'
 </script>
 ```
-# License : MIT 
