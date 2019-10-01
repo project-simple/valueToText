@@ -21,7 +21,7 @@ npm install value-to-text --save-dev
     valueToText([]) // return '[]'
     valueToText({}) // return '{}'
     valueToText(function(){}) // return 'function(){}'
-    valueToText('testString') // return 'testString'
+    valueToText('testString') // return '"testString"'
 </script>
 ```
 # License : MIT 

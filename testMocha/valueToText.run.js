@@ -141,7 +141,7 @@ describe("valueToText", function () {
 			{
 				title: 'string',
 				value: 'testString',
-				toBe: 'testString'
+				toBe: '\"testString\"'
 			}
 		]
 	);
