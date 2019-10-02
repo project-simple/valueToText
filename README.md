@@ -5,7 +5,7 @@ Value to Text.
 
 [![NPM](https://nodei.co/npm/value-to-text.png)](https://npmjs.org/package/value-to-text)
 
-github - [here](https://github.com/Project-Simple)
+github - [here](https://github.com/Project-Simple/valueToText)
 
 # Install 
 #### npm 
