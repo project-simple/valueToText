@@ -1,6 +1,6 @@
 {
   "name": "value-to-text",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Value to Text.",
   "main": "src/valueToText.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Project-Simple/valueToText.git"
+    "url": "git+https://github.com/project-simple/valueToText.git"
   },
   "keywords": [
     "value to text"
@@ -22,9 +22,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Project-Simple/valueToText/issues"
+    "url": "https://github.com/project-simple/valueToText/issues"
   },
-  "homepage": "https://github.com/Project-Simple/valueToText",
+  "homepage": "https://github.com/project-simple/valueToText",
   "devDependencies": {
     "chai": "^4.2.0",
     "live-server": "^1.2.1",
