@@ -1,12 +1,12 @@
 {
   "name": "value-to-text",
-  "version": "1.0.9",
+  "version": "1.0.11",
   "description": "Value to Text.",
   "main": "src/valueToText.js",
   "scripts": {
     "npmPublish": "npm --no-git-tag-version version patch && npm adduser && npm publish",
     "mochaTest": "mocha testMocha/*.test.js",
-    "mochaTest:browser": "live-server --port=9000 --entry-file=testIndex.html"
+    "mochaTest:browser": "live-server --port=9000 --entry-file=testRun_browser.html"
   },
   "repository": {
     "type": "git",
